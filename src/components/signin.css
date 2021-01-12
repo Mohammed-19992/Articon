@@ -1,0 +1,82 @@
+body {
+  background: #6441A5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+#sign
+{
+    margin: 0 0 20px 0;
+    font-weight: 300;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: yellow;
+}
+
+
+#card1{
+    position: relative;
+    margin: 6% auto;
+    height: 400px;
+    width: 300px;
+    background-image: url(brush1.webp);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+
+}
+
+#card2
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;    
+}
+
+
+
+#email{
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 4px;
+  width: 220px;
+  height: 32px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #aaa;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+    
+}
+
+#sum
+{
+    margin-bottom: 28px;
+    width: 220px;
+    height: 100px;
+    background: skyblue;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+    box-shadow: 5px 7px #050000;
+    cursor: pointer;
+
+
+    
+}
+
+
+
+
+

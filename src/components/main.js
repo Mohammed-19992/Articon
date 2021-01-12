@@ -1,20 +1,19 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-
 import LandingPage from './landingpage';
-import AboutMe from './aboutme';
+import Signup from './signup';
 import Contact from './contact';
-import Projects from './projects';
-import Resume from './resume';
+import Contest from './contest';
+import Signin from './signin';
 
 
 const Main = () => (
   <Switch>
     <Route exact path="/" component={LandingPage} />
-    <Route path="/aboutme" component={AboutMe} />
+    <Route path="/signup" component={Signup} />
     <Route path="/contact" component={Contact} />
-    <Route path="/projects" component={Projects} />
-    <Route path="/resume" component={Resume} />
+    <Route path="/contest" component={Contest} />
+    <Route path="/signin" component={Signin} />
   </Switch>
 )
 
