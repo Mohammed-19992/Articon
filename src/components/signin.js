@@ -8,7 +8,7 @@ class resume extends Component {
     return(
       <div id="card1">
         <div id="card2">
-        <div id="card3">
+        <div>
         <h1 id="sign">Sign In</h1>
           <input id="email" type="email" name="email" placeholder="E-mail Address"/>
           <input id="email" type="password" name="message" placeholder="Password"/>        

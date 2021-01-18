@@ -1,3 +1,17 @@
-##Overview:
+# [YouTube Tutorial](https://www.youtube.com/playlist?list=PL3KAvm6JMiowqFTXj3oPQkhP7aCgRHFTm)
+I created a Youtube code along tutorial for this project. Click the link above to view!
 
-Articon is an app that aims to support the unsupported artists all around the world. The app allows the artists to create their own accounts and upload their artworks to enter a an art contest. After that, art supporters and other artists have the opportunity to vote/rate the best artworks they like. The contest itself is times (a week or two) during which the artists have a chance to have their artwork rated and voted for.
+# react-portfolio-starter
+A React based personal portfolio app using create-react-app and React Router v4.
+
+# Tools
+* create-react-app cli
+* React MDL material design
+* React Router v4
+
+# Start App
+Clone repo, install, cd into folder and run:
+```git
+npm install
+npm start
+```

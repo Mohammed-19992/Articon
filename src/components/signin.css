@@ -23,6 +23,8 @@ body {
     width: 300px;
     background-image: url(brush1.webp);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    box-shadow: 9px 12px #b39b9b;
+
 
 }
 
